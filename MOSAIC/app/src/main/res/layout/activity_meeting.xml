@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@drawable/image1"
+    tools:context="com.example.vaibh.mosaic.MeetingActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_below="@id/gradient">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/trans_white_rectangle"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:paddingStart="18dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="10dp"
+                android:text="Employee Id"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <AutoCompleteTextView
+                android:id="@+id/editEmp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_white"
+                android:drawablePadding="5dp"
+                android:hint="Employee Id"
+                android:paddingStart="10dp"
+                android:textColor="#F1650A"
+                android:textColorHint="#A8AFBD"
+                android:textSize="14sp"
+                android:enabled="false"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:paddingStart="18dp"
+                android:paddingEnd="10dp"
+                android:text="Restaurant Id"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <AutoCompleteTextView
+                android:id="@+id/editRestId"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_white"
+                android:drawablePadding="5dp"
+                android:enabled="false"
+                android:hint="Restaurant Id"
+                android:paddingStart="10dp"
+                android:textColor="#F1650A"
+                android:textColorHint="#A8AFBD"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:paddingStart="18dp"
+                android:paddingEnd="10dp"
+                android:text="Business Opportunity Id"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <AutoCompleteTextView
+                android:id="@+id/bsn_opp_id"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_white"
+                android:drawablePadding="5dp"
+                android:hint="Business Opportunity Id"
+                android:paddingStart="10dp"
+                android:textColor="#F1650A"
+                android:textColorHint="#A8AFBD"
+                android:textSize="14sp"
+                android:enabled="false"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:paddingStart="18dp"
+                android:paddingEnd="10dp"
+                android:text="Contacted Person"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <AutoCompleteTextView
+                android:id="@+id/editContacted"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_white"
+                android:drawablePadding="5dp"
+                android:hint="Contacted Person"
+                android:paddingStart="10dp"
+                android:textColor="#F1650A"
+                android:textColorHint="#A8AFBD"
+                android:textSize="14sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:paddingStart="18dp"
+                android:paddingEnd="10dp"
+                android:text="Meeting Date"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <AutoCompleteTextView
+                android:id="@+id/editDate"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_white"
+                android:drawablePadding="5dp"
+                android:hint="Meeting Date"
+                android:paddingStart="10dp"
+                android:textColor="#F1650A"
+                android:textColorHint="#A8AFBD"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:paddingStart="18dp"
+                android:paddingEnd="10dp"
+                android:text="Meeting Description"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <AutoCompleteTextView
+                android:id="@+id/editMeeting"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_white"
+                android:drawablePadding="5dp"
+                android:hint="Meeting Description"
+                android:paddingStart="10dp"
+                android:textColor="#F1650A"
+                android:textColorHint="#A8AFBD"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/buttonAdd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginRight="75dp"
+                    android:background="@drawable/login_button"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    android:text="Add"
+                    android:textColor="@color/white"
+                    android:textStyle="normal" />
+
+                <Button
+                    android:id="@+id/buttonClear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/login_button"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    android:text="Clear"
+                    android:textColor="@color/white"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/progressbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
