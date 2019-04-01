@@ -1,0 +1,56 @@
+{
+        "restaurant_id": 1,
+        "business_opportunity_id": 1,
+        "employee_id": 1,
+        "contacted_person": "Ronak Patel",
+        "meeting_date": "2019-01-23",
+        "meeting_description": "Prices discussed for providing labours"
+    }
+
+
+{
+	"first_name":"Harshit",
+	"last_name":"Patel",
+	"email":"harshitpatel130198@gmail.com",
+	"mobile":"8690319519",
+	"password":"Harshit@98"
+}
+
+{
+	"email":"harshitpatel130198@gmail.com",
+	"password":"hp123456"
+}
+
+{
+	"latitude":23.051275,
+	"longitude":72.519037
+}
+
+{
+	"restaurant_id":1
+}
+
+{
+	"restaurant_id":1,
+	"business_opportunity_id":1
+}
+
+{	
+	"restaurant_id":1,
+	"business_opportunity_id":1,
+	"employee_id":1,
+	"contacted_person":"Klark",
+	"meeting_date":"2019-02-21",
+	"meeting_description":"Sample"
+}
+{
+	"employee_id":1
+}
+
+ restaurant_id,business_opportunity_id,employee_id,contacted_person,meeting_date,meeting_description
+
+{
+	"id":1,
+	"password":"qwertyui",
+	"new_password":"vaib123456"
+}
